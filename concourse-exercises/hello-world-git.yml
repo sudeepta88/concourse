@@ -1,0 +1,74 @@
+resources:
+- name: repo
+  type: git
+  source:
+    uri: git@github.com:sudeepta88/concourse.git
+    private_key: |
+      -----BEGIN OPENSSH PRIVATE KEY-----
+      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
+      -----END OPENSSH PRIVATE KEY-----
+
+jobs:
+- name: hello-world-job
+  plan:
+  - get: repo
+    trigger: true
+  - task: create-commit
+    config:
+      platform: linux
+      image_resource:
+        type: registry-image
+        source:
+          repository: gitea/gitea
+      inputs:
+      - name: repo
+      run:
+        path: sh
+        args:
+        - -cx
+        - |
+          cd repo
+          date +%Y-%m-%d > todays-date
+          git add ./todays-date
+          git config --global user.email "sudeeptask@gmail.com"
+          git config --globa; user.name "Sudeepta Khuntia"
+          git commit -m "Update todays date"
+  - put: repo
+    params:
+      repository: repo
+      branch: main
